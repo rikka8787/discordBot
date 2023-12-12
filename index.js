@@ -3,10 +3,10 @@ const mysql = require('mysql2');
 const { token } = require('./config.json');
 
 const dbConnection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '33471020',
-    database: 'TEST'
+    host: '*',
+    user: '*',
+    password: '*',
+    database: '*'
 });
 
 // 連接到 MySQL 數據庫
